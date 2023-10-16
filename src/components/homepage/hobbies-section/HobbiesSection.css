@@ -1,0 +1,87 @@
+/* ---------------------⬇⬇ HOBBIES SECTION ⬇⬇--------------------- */
+#hobbies {
+  position: relative;
+}
+#hobbies .hobbies-wrapper {
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#hobbies .hobbies-wrapper .hobbies-container {
+  position: relative;
+  height: 480px;
+}
+#hobbies .hobbies-wrapper .hobbies-container:first-child {
+  position: relative;
+  border-radius: 6px;
+  margin-bottom: 32px;
+  height: 32px;
+}
+#hobbies .hobbies-wrapper .hobbies-container:last-child {
+  margin-top: 64px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+}
+
+#hobbies .hobbies-wrapper .hobbies-container .content {
+  position: absolute;
+  top: 0;
+  margin: 2rem;
+  overflow: hidden;
+}
+#hobbies .hobbies-wrapper .hobbies-container .content h1 {
+  position: relative;
+}
+#hobbies .hobbies-wrapper .hobbies-container .hobbies-content {
+  position: relative;
+  width: 100%;
+  margin: 8px;
+  overflow: hidden;
+  height: 500 px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hobbies .hobbies-wrapper .hobbies-container .hobbies-content:nth-child(1) {
+  margin-left: 0;
+  margin-right: 16px;
+}
+#hobbies .hobbies-wrapper .hobbies-container .hobbies-content:nth-child(3) {
+  margin-right: 0;
+  margin-left: 16px;
+}
+#hobbies .hobbies-wrapper .hobbies-container .hobbies-content .img-hobby {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+}
+
+#hobbies .hobbies-wrapper .hobbies-container .hobbies-content .hobby-title {
+  transform: translateY(100%);
+  background-color: transparent;
+  height: 40%;
+  transition: 500ms;
+}
+
+#hobbies
+  .hobbies-wrapper
+  .hobbies-container
+  .hobbies-content:hover
+  .hobby-title {
+  transform: translateY(0%);
+  background-color: var(--primary-color);
+  transition: 500ms;
+}
+
+#hobbies .hobbies-wrapper .hobbies-container .hobbies-content h1 {
+  text-align: left;
+  margin: 16px;
+  justify-content: space-between;
+}
+/* ---------------------⬆⬆ HOBBIES SECTION ⬆⬆--------------------- */

@@ -1,0 +1,42 @@
+/* ------------------------⬇⬇ UNIVERSAL ⬇⬇------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #f2ff93;
+  --secondary-color: #222;
+  --body-color: #e8e8e8;
+  --neutral-color: #f8f8f8;
+  --light-color: #fff;
+  --big-border-radius: 12px;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-color);
+  font-family: "Noto Sans NKo Unjoined", sans-serif;
+  color: var(--secondary-color);
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+li {
+  list-style-type: none;
+}
+
+#main-container {
+  position: relative;
+  background-color: var(--light-color);
+  border-radius: var(--big-border-radius);
+  margin: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+#content-container {
+  position: relative;
+  max-width: 100%;
+  margin: 1rem;
+}
+/* ------------------------⬆⬆ UNIVERSAL ⬆⬆------------------------ */

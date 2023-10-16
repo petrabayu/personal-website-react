@@ -1,0 +1,80 @@
+/* ---------------------⬇⬇ PORTFOLIO SECTION ⬇⬇--------------------- */
+#portfolio {
+  position: relative;
+}
+
+#portfolio .portfolio-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#portfolio .portfolio-wrapper .portfolio-container {
+  position: relative;
+  margin-top: 32px;
+}
+
+#portfolio .portfolio-wrapper .portfolio-container:first-child {
+  position: relative;
+  border-radius: 6px;
+  flex-basis: 40%;
+  margin-right: 8px;
+}
+#portfolio .portfolio-wrapper .portfolio-container:last-child {
+  border-radius: 6px;
+  flex-basis: 60%;
+  margin-left: 8px;
+}
+#portfolio .portfolio-wrapper .portfolio-container .content {
+  margin: 2rem;
+  margin-top: 0;
+  overflow: hidden;
+}
+#portfolio .portfolio-wrapper .portfolio-container .portfolio-content {
+  width: 100%;
+}
+#portfolio
+  .portfolio-wrapper
+  .portfolio-container
+  .portfolio-content
+  .portfolio-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#portfolio
+  .portfolio-wrapper
+  .portfolio-container
+  .portfolio-content
+  .portfolio-list
+  li {
+  margin: 16px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid black;
+  font-size: 24px;
+}
+#portfolio
+  .portfolio-wrapper
+  .portfolio-container
+  .portfolio-content
+  .portfolio-list
+  li
+  span {
+  float: right;
+  transform: rotate(-45deg);
+  margin-right: 0.5rem;
+}
+
+#portfolio
+  .portfolio-wrapper
+  .portfolio-container
+  .portfolio-content
+  .portfolio-list
+  li
+  span:hover {
+  transform: rotate(0deg);
+  color: var(--body-color);
+}
+
+/* ---------------------⬆⬆ PORTFOLIO SECTION ⬆⬆--------------------- */

@@ -1,0 +1,68 @@
+/* ---------------------⬇⬇ NAVBAR SECTION ⬇⬇--------------------- */
+#navbar {
+  position: relative;
+}
+
+#navbar .navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar .navbar-wrapper #logo {
+  display: block;
+  text-align: center;
+}
+#navbar .navbar-wrapper .navbar-container a {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+#navbar .navbar-wrapper .navbar-container #list-pages {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+#navbar .navbar-wrapper .navbar-container #list-pages .page {
+  display: inline-block;
+  margin: 0 3rem;
+  border-radius: 6px;
+}
+#navbar .navbar-wrapper .navbar-container #list-pages .page:hover {
+  background-color: var(--body-color);
+}
+
+#navbar .navbar-wrapper .navbar-container .btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 190px;
+  height: 57px;
+  color: #222;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  overflow: hidden;
+}
+#navbar .navbar-wrapper .navbar-container .btn:hover {
+  font-size: 0px;
+}
+
+#navbar .navbar-wrapper .navbar-container .btn:hover {
+  transition: all 0.3s;
+  font-size: 24px;
+  background-color: #222;
+  color: var(--primary-color);
+}
+/* ---------------------⬆⬆ NAVBAR SECTION ⬆⬆--------------------- */

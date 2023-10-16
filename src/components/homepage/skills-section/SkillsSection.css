@@ -1,0 +1,59 @@
+/* ---------------------⬇⬇ SKILLS SECTION ⬇⬇--------------------- */
+#skills {
+  position: relative;
+}
+
+#skills .skills-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#skills .skills-wrapper .skills-container {
+  position: relative;
+  margin-top: 32px;
+}
+
+#skills .skills-wrapper .skills-container:first-child {
+  position: relative;
+  border-radius: 6px;
+  flex-basis: 40%;
+  margin-right: 8px;
+}
+#skills .skills-wrapper .skills-container:last-child {
+  border-radius: 6px;
+  flex-basis: 60%;
+  margin-left: 8px;
+  height: 400px;
+}
+#skills .skills-wrapper .skills-container .content {
+  margin: 2rem;
+  margin-top: 0;
+  overflow: hidden;
+}
+#skills .skills-wrapper .skills-container .skills-content {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 72px 72px 72px 72px;
+  margin: 0 auto;
+  grid-gap: 32px;
+  place-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+#skills .skills-wrapper .skills-container .skills-content .icon {
+  margin: 1.5rem;
+  width: 70%;
+  text-align: center;
+  place-items: center;
+}
+#skills .skills-wrapper .skills-container .skills-content .fa {
+  font-size: 64px;
+}
+#skills .skills-wrapper .skills-container .skills-content .png-icon {
+  width: 64px;
+  filter: grayscale(100%);
+}
+#skills .skills-wrapper .skills-container .skills-content .png-icon:hover {
+  filter: grayscale(0%);
+}
+/* ---------------------⬆⬆ SKILLS SECTION ⬆⬆--------------------- */

@@ -1,0 +1,71 @@
+/* ---------------------⬇⬇ HERO SECTION ⬇⬇--------------------- */
+#hero {
+  position: relative;
+}
+#hero .hero-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#hero .hero-wrapper .hero-container {
+  position: relative;
+  margin-top: 32px;
+  height: 480px;
+}
+#hero .hero-wrapper .hero-container:first-child {
+  position: relative;
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  flex-basis: 40%;
+  margin-right: 8px;
+}
+#hero .hero-wrapper .hero-container:last-child {
+  border-radius: 6px;
+  flex-basis: 60%;
+  margin-left: 8px;
+}
+
+#hero .hero-wrapper .hero-container .content {
+  position: absolute;
+  bottom: 0;
+  margin: 2rem;
+  overflow: hidden;
+  width: 90%;
+}
+#hero .hero-wrapper .hero-container .content h1 {
+  font-size: 38px;
+  margin: 0;
+}
+#hero .hero-wrapper .hero-container .content .content-flex {
+  display: flex;
+  align-items: center;
+}
+#hero .hero-wrapper .hero-container .content .content-flex button {
+  height: 40px;
+  border-radius: 6px;
+  margin-left: 32px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+#hero .hero-wrapper .hero-container .content .content-flex button {
+  padding: 12px;
+  color: white;
+}
+
+#hero .hero-wrapper .hero-container .content .content-flex button:hover {
+  background-color: var(--neutral-color);
+  color: var(--secondary-color);
+}
+
+#hero .hero-wrapper .hero-container:last-child {
+  background-image: url(./petra4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  background-position: center;
+}
+/* ---------------------⬆⬆ HERO SECTION ⬆⬆--------------------- */
